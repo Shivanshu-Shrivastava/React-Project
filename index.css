@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+body{
+    background-color: #e5e5e5!important;
+}
+.cob{
+    color: #555;
+}
+@media (max-width:600px) {
+    .d-s-none{
+        display: none;
+    }
+    
+}
